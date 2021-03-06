@@ -30,6 +30,7 @@ namespace ExampleProject.XmlSerializerHelper
     [Serializable]
     public class OptionArray
     {               
+        [XmlElement("ItemOption")]
         public List<ItemOption> ItemOption { get; set; }
     }
 
